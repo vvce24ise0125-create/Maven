@@ -23,7 +23,7 @@ jobs:
                 distribution: 'temurin'
 
             - name: Compile Java Program
-              run: javac dj.java
+              run: javac Dj.java
 
             - name: Run Java Program
-              run: java dj
+              run: java Dj
